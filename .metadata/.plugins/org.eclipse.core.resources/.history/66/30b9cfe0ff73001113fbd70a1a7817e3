@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />   
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script> 
+</head>
+<body>
+<script>
+$(document).ready(function() {
+    var options = {
+        chart: {
+            renderTo: 'container',
+            defaultSeriesType: 'column',
+            rightMargin: 80
+        },
+
+        title: {
+            text: 'the scholls'
+        },
+        subtitle: {
+            text: 'data for 2012 years'
+        },
+         xAxis:{
+        title:'months',
+        categories:[]
+    },
+        yAxis: [
+            {
+                min: 0,
+                title: {
+                    text: 'students'
+                 }
+            },
+            {
+                linkedTo: 0,
+                opposite: true
+            }
+        ],
+        tooltip: {
+            formatter: function() {
+                return '<b>'+ this.series.name +'</b><br/>'+              
+                this.x +'月份: '+ this.y +' 數量：';
+            }
+        },
+        legend: {
+            layout: 'vertical',
+                align: 'left',
+                verticalAlign: 'bottom',
+                x: -10,
+                y: 100,
+                borderWidth: 0
+            },
+         
+         series:[{
+        name: "",
+        xDataObj.data: [0]
+        yDataObj.data: [0]                             
+        },{
+        name: "",
+        xDataObj1.data: [1]
+        yDataObj1.data: [1]        
+        },{
+        name: "",
+        data: [2]        
+        },{
+        name: "",
+        data: [3]        
+        },{
+        name: "",
+        data: [4]        
+        }]    
+    };       
+    //get the json files
+    $.getJSON('http://localhost:3000/students/givemechart.json', function(data) {
+    yData = options.series[0].data; //Array to store data for y column
+    xData = options.xAxis.categories; //Array to store data for x column   
+    xDataObj = data[0];   //only can show one months
+    yDataObj = data[0];   //only can show one totals  
+    xDataObj1 = data[1];
+    yDataObj1 = data[1];    
+    for(var key in xDataObj){
+        xData.push((xDataObj[key].month)); 
+        console.dir(xData); //chrome console only                          
+    }
+
+    for(var key in yDataObj){    	
+        yData.push((yDataObj[key].total));        
+        console.dir(yData); //chrome console only          
+    }
+    //
+    //  for(var key in xDataObj){
+    //    xData.push((xDataObj1[key].month)); 
+    //    console.dir(xData1); //chrome console only                          
+    //}
+    //
+    //for(var key in yDataObj){    	
+    //    yData.push((yDataObj1[key].total));        
+    //    console.dir(yData1); //chrome console only          
+    //}        
+    
+    var chart = new Highcharts.Chart(options); 
+     });
+       
+ });     
+</script>
+  <div id="container">
+</div>
+</body>
+</html>

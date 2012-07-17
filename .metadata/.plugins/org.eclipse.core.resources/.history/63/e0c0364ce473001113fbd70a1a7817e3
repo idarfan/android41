@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />   
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script> 
+</head>
+<body>
+<script>
+$(document).ready(function() {
+    var options = {
+        chart: {
+            renderTo: 'container',
+            defaultSeriesType: 'column',
+            rightMargin: 80
+        },
+
+        title: {
+            text: '101 上半年度'
+        },
+        subtitle: {
+            text: '資料來源: 101年度'
+        },
+         xAxis:{
+        title:'Education Level',
+        categories:[]
+    },
+        yAxis: [
+            {
+                min: 0,
+                title: {
+                    text: '學生人數'
+                 }
+            },
+            {
+                linkedTo: 0,
+                opposite: true
+            }
+        ],
+        tooltip: {
+            formatter: function() {
+                return '<b>'+ this.series.name +'</b><br/>'+              
+                this.x +'月份: '+ this.y +' 人數：';
+            }
+        },
+        legend: {
+            layout: 'vertical',
+                align: 'right',
+                verticalAlign: 'top',
+                x: -10,
+                y: 100,
+                borderWidth: 0
+            },
+         
+         series:[{
+        name: "單月份註冊人數統計",
+        data: []
+    }]
+    };       
+    //
+    $.getJSON('http://localhost:3000/students/givemechart.json', function(data) {
+    yData = options.series[0].data; //Array to store data for y column
+    xData = options.xAxis.categories; //Array to store data for x column    
+    xDataObj = data[1]; //for test //原先這樣可以調出單月份
+    //xDataBbj = "";    
+    //for(var i=0; i < data.length; i++){
+    //xDataObj = data[i];   
+    //}
+    yDataObj ＝ dtat[2];  //原先這樣可以調出單月份     
+    //yDataObj = "";
+    //for (var i=0; i < data.length; i++ {
+    //yDataObj = data[i];
+    //}  
+
+    for(var key in xDataObj){
+        xData.push((xDataObj[key].month)); 
+        console.dir(xData); //chrome console only 查看變數的值                         
+    }
+
+    for(var key in yDataObj){    	
+        yData.push((yDataObj[key].total));        
+        console.dir(yData); //chrome console only 查看變數的值              
+    }    
+    
+    var chart = new Highcharts.Chart(options); 
+     });
+       
+ });     
+</script>
+  <div id="container">
+</div>
+</body>
+</html>

@@ -1,0 +1,86 @@
+Ext.onReady(function() {
+			Ext.define('student', {
+						extend : 'Ext.data.Model',
+						fields : [{
+									name : 'month',
+									type : 'auto'
+								}, {
+									name : 'total',
+									type : 'auto'
+								}]
+					});
+
+			// The Store contains the AjaxProxy as an inline configuration
+			var store = Ext.create('Ext.data.Store', {
+						fields : ['month', 'total'],
+						//sorter : ['month', 'total'], 這行似乎沒作用
+						model : 'student',
+						autoLoad : true,
+						proxy : {
+							type : 'ajax',
+							url : 'http://localhost:3000/students/givemechart.json',
+							method : 'GET',
+							reader : {
+								type : 'json',
+								root : 'student'
+							}
+						}
+					});
+			
+			Ext.create('Ext.window.Window', {
+				title : '月份學生人數統計',
+				width : 600,
+				height : 400,
+				layout : 'fit',
+				maximizable : true,
+
+				items : {
+					xtype : 'chart',
+					style : 'background:#fff',
+					animate : true,
+					shadow : true,
+					store : store,
+					axes : [{
+								type : 'Numeric',
+								position : 'left',
+								fields : ['total'],
+								title : '學生數量',
+								grid : true,
+								maximum : 1200,
+								minimum : 0,
+								minorTickSteps : 5,
+								majorTickSteps : 6
+							}, {
+								type : 'Category',
+								position : 'bottom',
+								fields : ['month'],
+								title : '月份',
+								grid : true
+							}],
+					legend : {
+						position : 'right',
+						padding : 10,
+						itemSpacing : 7,
+						boxFill : '#CCFFCC',
+						labelFont : '16px Helvetica'
+					},
+					series : [{
+						type : 'column',
+						axis : 'bottom',
+						highlight : true,
+						tips : {
+							trackMouse : true,
+							width : 140,
+							height : 28,
+							renderer : function(storeItem, item) {
+								this.setTitle(storeItem.get('month') + ': '
+										+ storeItem.get('total'));
+							}
+						},
+						xField : 'total',
+						yField : 'month',
+						showInLegend : true
+					}]
+				}
+			}).show();
+		});

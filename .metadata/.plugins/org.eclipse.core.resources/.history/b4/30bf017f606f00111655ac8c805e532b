@@ -1,0 +1,30 @@
+<!DOCTYPE>
+<head>    
+    <title>Hello, World</title>
+    <!-- ExtJS -->
+    <link rel="stylesheet" type="text/css" href="../extjs407/resources/css/ext-all-access.css" />
+    <link rel="stylesheet" type="text/css" href="../shared/example.css" />
+    <!-- Shared -->
+    
+    <script type="text/javascript" src="../extjs407/bootstrap.js"></script>
+    
+    
+
+    <!-- Example -->
+    <script type="text/javascript" src="fortest.js"></script>
+	
+	<style type="text/css" media="screen">
+      body  {
+            background: #fff;
+            color: #000 !important;
+        }
+		
+		.x-form-text {
+			color: #fff;
+		}
+	</style>
+</head>
+<body>
+    <h3>page 157</h3>
+</body>
+</html>
