@@ -1,0 +1,47 @@
+package kojen.Ch05Button1me;
+
+import kojen.Ch05Button1me.Ch05Button1me;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class MainActivity extends Activity {
+	private Button btSure;
+	private EditText etName;
+	private EditText etSex;
+
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);    
+    
+    etName = (EditText)findViewById(r.id.etIdName);
+     etSex = (EditText)findViewById(r.id.etIdSex);
+    btSure =(Button)findViewById(r.id.btIdSure);
+    
+    btSure.setOnClickListener(btListener);  
+    }
+    private OnClickListener btListener = new OnClickListener() {    
+    	public void onClick(View v) {      
+    		CharSequence csName=etName.getText();
+    		CharSequence csSex=etSex.getText();
+    		String st=new String();
+    		if (csSex.toString().equals("male"))
+    			{st=csName.toString()+"先生, 你好!";}
+    		else
+    			{st=csName.toString()+"小姐, 妳好!";}
+			
+    		Toast.makeText(
+    				Ch05Button1.this,
+					st,
+					Toast.LENGTH_SHORT)
+			     .show();			
+    	}
+    };   
+}
