@@ -4536,3 +4536,15 @@ android.content.res.Resources$NotFoundException
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-07-18 18:10:04.127
 !MESSAGE Failed to load properties file for project 'Ch05Button2me'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-18 20:40:04.778
+!MESSAGE Failed to load properties file for project 'Ch05Button3me'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-18 20:46:35.014
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-18 21:26:17.858
+!MESSAGE Failed to load properties file for project 'Ch05Button4me'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-18 21:27:31.868
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world

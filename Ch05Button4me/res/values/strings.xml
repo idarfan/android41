@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Ch05Button4me</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch05_button4me">ch05Button4me</string>
+    <string name="tvPtName">姓名</string>
+    <string name="tvPtSex">性別</string>
+    <string name="btPtSure">確定</string>
+    <string name="enterYourName_tw">請輸入你的名字</string>
+    <string name="enterYourSex_tw">請輸入你的性別</string>
+
+</resources>
