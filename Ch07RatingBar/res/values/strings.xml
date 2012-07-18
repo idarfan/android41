@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch07評分列</string>
+    <string name="tvPtHead">請給下列照片評分：</string>
+</resources>

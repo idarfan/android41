@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="10dip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text=
+        "示範ViewFlipper物件動畫-套用不同動畫效果"/>
+    <ViewFlipper android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:flipInterval="2000"
+        android:layout_marginBottom="20dip" >
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:textSize="26sp"
+             android:text="自由自在"/>
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:textSize="26sp"
+             android:text="天空很藍"/>
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:textSize="26sp"
+             android:text="夢想起飛"/>
+        <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center_horizontal"
+             android:textSize="26sp"
+             android:text="幸福人生"/>
+    </ViewFlipper>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:text="請選擇一個動畫:"/>
+
+    <Spinner android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

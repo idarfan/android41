@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/action_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/actbar_search"
+          android:showAsAction="ifRoom"
+          android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/itPhoto" android:title="瀏覽照片"
+		android:icon="@drawable/frame" 
+        android:showAsAction="ifRoom|withText">
+	    <menu>
+			<item android:id="@+id/subitPhoto1" 
+			    android:title="照片flow1.png" />
+			<item android:id="@+id/subitPhoto2" 
+			    android:title="照片flow2.png" />
+		</menu>
+    </item>
+	<item android:id="@+id/itMusic" android:title="播放音樂" 
+	    android:icon="@drawable/music"
+        android:showAsAction="ifRoom|withText">
+	    <menu>
+			<item android:id="@+id/subitMusic1" 
+			    android:title="天空之城.midi" />
+			<item android:id="@+id/subitMusic2" 
+			    android:title="灌藍高手.midi" />
+		</menu>
+    </item>
+	    <item android:id="@+id/itInfo" android:title="關於"
+		android:icon="@drawable/info" 
+        android:showAsAction="ifRoom|withText"/>
+   	<item android:id="@+id/itStop" android:title="結束"
+		android:icon="@drawable/stop" 
+        android:showAsAction="ifRoom|withText"/>
+</menu>

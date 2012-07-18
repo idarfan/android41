@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:textColor="#33FFAA"
+        android:text="@string/tvPtMsu" />
+    <ListView
+        android:id="@+id/lvIdMus"
+        android:layout_width="match_parent"
+        android:layout_height="150dip"
+        android:drawSelectorOnTop="false"
+        android:entries="@array/lvMusList" />
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageButton
+            android:id="@+id/ibIdPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play" />
+        <ImageButton
+            android:id="@+id/ibIdPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause" />
+        <ImageButton
+            android:id="@+id/ibIdStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stop" />
+    </LinearLayout>
+</LinearLayout>

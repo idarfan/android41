@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch07選項群組</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtSure">確定</string>
+    <string name="rbPtMale">男性</string>
+    <string name="rbPtFemale">女性</string>
+        
+</resources>

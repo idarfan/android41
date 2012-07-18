@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch14播放音樂</string>
+    <string name="tvPtMsu">請選擇欲播放的音樂：</string>
+    <string-array name="lvMusList">
+        <item>天空之城(skycity.mid)</item>
+        <item>灌籃高手(basket.mid)</item>
+        <item>龍貓(toto.mid)</item>
+    </string-array>
+</resources>

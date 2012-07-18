@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch11標籤頁2</string>
+    <string name="tvPtEdu">選擇教育程度</string>
+    <string-array name="spnEduList">
+        <item>國小</item>
+        <item>國中</item>
+        <item>高中</item>
+        <item>大學</item>
+        <item>碩士</item>
+        <item>博士</item>
+    </string-array>
+    <string name="btPtDialer">撥打電話</string>
+    <string name="btPtBrowser">瀏覽網頁</string>
+</resources>

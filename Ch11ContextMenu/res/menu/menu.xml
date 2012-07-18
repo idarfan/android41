@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android=
+    "http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/itPhoto" android:title="瀏覽照片">
+		<menu>
+			<item android:id="@+id/subitPhoto1" 
+			    android:title="照片flow1.png" />
+			<item android:id="@+id/subitPhoto2" 
+			    android:title="照片flow2.png" />
+		</menu>
+	</item>
+	<item android:id="@+id/itMusic" android:title="播放音樂">
+		<menu>
+			<item android:id="@+id/subitMusic1" 
+			    android:title="天空之城.midi" />
+			<item android:id="@+id/subitMusic2" 
+			    android:title="灌藍高手.midi" />
+		</menu>
+	</item>
+   	<item android:id="@+id/itInfo" android:title="關於" />
+	<item android:id="@+id/itStop" android:title="結束" />
+</menu>

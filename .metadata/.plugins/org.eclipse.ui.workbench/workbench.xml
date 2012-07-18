@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="28" version="2.0">
 <workbenchAdvisor/>
 <window height="711" maximized="true" width="1000" x="60" y="117">
 <fastViewData fastViewLocation="1024"/>
@@ -19,16 +19,16 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="76" y="30"/>
 <coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="40" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.android.ide.eclipse.editors.CommonXmlEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -40,21 +40,32 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch03FirstExamp.java" partName="Ch03FirstExamp.java" path="/run/media/kojendirect/backup/workspace1/第03章/Ch03FirstExamp/src/andbas/Ch03FirstExamp/Ch03FirstExamp.java" title="Ch03FirstExamp.java" tooltip="Ch03FirstExamp/src/andbas/Ch03FirstExamp/Ch03FirstExamp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch03FirstExamp/src/andbas/Ch03FirstExamp/Ch03FirstExamp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="368" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" partName="MainActivity.java" path="/home/kojendirect/workspace/Ch05app2me/src/kojen/ch05app2me/MainActivity.java" title="MainActivity.java" tooltip="Ch05app2me/src/kojen/ch05app2me/MainActivity.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch05app2me/src/kojen/ch05app2me/MainActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Ch03FirstExamp Manifest" path="/run/media/kojendirect/backup/workspace1/第03章/Ch03FirstExamp/AndroidManifest.xml" title="Ch03FirstExamp Manifest" tooltip="Ch03FirstExamp/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch03FirstExamp/AndroidManifest.xml"/>
+<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Ch05app2me Manifest" path="/home/kojendirect/workspace/Ch05app2me/AndroidManifest.xml" title="Ch05app2me Manifest" tooltip="Ch05app2me/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch05app2me/AndroidManifest.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/kojendirect/workspace/Ch05app2me/res/values/strings.xml" title="strings.xml" tooltip="Ch05app2me/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch05app2me/res/values/strings.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" partName="activity_main.xml" path="/home/kojendirect/workspace/Ch05app2me/res/layout/activity_main.xml" title="activity_main.xml" tooltip="Ch05app2me/res/layout/activity_main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch05app2me/res/layout/activity_main.xml"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=TimeTracker" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=TimeTracker/\/home\/kojendirect\/android-sdk-linux\/platforms\/android-16\/android.jar&lt;java.lang(Object.class[Object" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName="Aggregate for window 1331610475823"/>
+</view>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="817" column3="330" column4="272" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
 <view id="com.spket.ui.docview" partName="Documentation">
 <viewState/>
@@ -80,6 +91,9 @@
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
 <viewState/>
 </view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>&#x0A;<filter element="*.class" isEnabled="false"/>
@@ -89,6 +103,9 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (28 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="611" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="345" org.eclipse.ui.ide.severityAndDescriptionField="663"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -132,14 +149,14 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
 <viewState/>
 </view>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
-<viewState/>
-</view>
 <view id="com.spket.ui.paletteViewer" partName="Snippets">
 <viewState/>
 </view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.android.ide.eclipse.editors.CommonXmlEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -201,6 +218,8 @@
 <view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -228,13 +247,15 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.14619532" ratioLeft="244" ratioRight="1425" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.67995447" ratioLeft="597" ratioRight="281" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.8359909" ratioLeft="734" ratioRight="144" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
@@ -244,10 +265,12 @@
 <part id="2"/>
 <part id="3"/>
 <part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.8375527" ratioLeft="1191" ratioRight="231" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.8059072" ratioLeft="1146" ratioRight="276" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -386,13 +409,7 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TimeTracker/res/layout/activity_main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/TimeTracker/src/kojen/timetracker/MainActivity.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch05Button1/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch05Button1/src/andbas/Ch05Button1/Ch05Button1.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Ch05Button1/project.properties"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/TimeTracker/test.xml"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=Ch05Button1/\/home\/kojendirect\/android-sdk-linux\/platforms\/android-15\/android.jar&lt;android.app(Activity.class"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch03FirstExamp/src/andbas/Ch03FirstExamp/Ch03FirstExamp.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch03FirstExamp/gen/andbas/Ch03FirstExamp/R.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/Ch03FirstExamp/project.properties"/>
@@ -402,121 +419,114 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch03FirstExamp/AndroidManifest.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch03FirstExamp/res/values/strings.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch03FirstExamp/gen/andbas/Ch03FirstExamp/R.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch03FirstExamp/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch05app2me/src/kojen/ch05app2me/MainActivity.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch05app2me/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05app2me/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05app2me/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="" path="/Ch05app2me/res/layout/activity_main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05app2me/res/values/strings.xml"/>
 </editors>
-<item historyLabel="MainActivity.java" index="1">
+<item historyLabel="Ch03FirstExamp.java" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ch05Button1 Manifest" index="2"/>
-<item historyLabel="MainActivity.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ch05Button1 Manifest" index="2"/>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="416" y="0"/>
-</item>
-<item historyLabel="project.properties" index="4">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="416" y="0"/>
-</item>
-<item historyLabel="Ch05Button1 Manifest" index="2"/>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="416" y="0"/>
-</item>
-<item historyLabel="activity_main.xml" index="0"/>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="416" y="0"/>
-</item>
-<item historyLabel="test.xml" index="5"/>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="498" y="0"/>
-</item>
-<item historyLabel="Activity.class" index="6">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ch05Button1.java" index="3">
+<item historyLabel="Ch05Button1.java" index="0">
 <position info="not_deleted" x="428" y="0"/>
 </item>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="428" y="0"/>
-</item>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Ch05Button1.java" index="3">
-<position info="not_deleted" x="428" y="0"/>
-</item>
-<item historyLabel="Ch03FirstExamp.java" index="7">
+<item historyLabel="Ch03FirstExamp.java" index="1">
 <position info="not_deleted" x="368" y="0"/>
 </item>
-<item historyLabel="R.java" index="8">
+<item historyLabel="R.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ch03FirstExamp.java" index="7">
+<item historyLabel="Ch03FirstExamp.java" index="1">
 <position info="not_deleted" x="368" y="0"/>
 </item>
-<item historyLabel="project.properties" index="9">
+<item historyLabel="project.properties" index="3">
 <position info="not_deleted" x="360" y="0"/>
 </item>
-<item historyLabel="R.java" index="8">
+<item historyLabel="R.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="project.properties" index="9">
+<item historyLabel="project.properties" index="3">
 <position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="Ch03FirstExamp Manifest" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="Ch03FirstExamp Manifest" index="4"/>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="project.properties" index="3">
+<position info="not_deleted" x="360" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="R.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="R.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="5"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="project.properties" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Ch03FirstExamp Manifest" index="7"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="Ch03FirstExamp Manifest" index="7"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="8"/>
+<item historyLabel="R.java" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="8"/>
+<item historyLabel="project.properties" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="8"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="368" y="0"/>
+</item>
+<item historyLabel="Ch03FirstExamp Manifest" index="7"/>
+<item historyLabel="Ch03FirstExamp.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="Ch03FirstExamp Manifest" index="10"/>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="Ch03FirstExamp Manifest" index="10"/>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="project.properties" index="9">
-<position info="not_deleted" x="360" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
-</item>
-<item historyLabel="R.java" index="8">
+<item historyLabel="MainActivity.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="R.java" index="8">
+<item historyLabel="Ch05app2me Manifest" index="12"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="Ch05app2me Manifest" index="12"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="activity_main.xml" index="14"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="activity_main.xml" index="14">
+<position info="not_deleted" x="636" y="0"/>
+</item>
+<item historyLabel="activity_main.xml" index="15">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="11"/>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
+<item historyLabel="activity_main.xml" index="15">
+<position info="not_deleted" x="477" y="0"/>
 </item>
-<item historyLabel="project.properties" index="12">
+<item historyLabel="MainActivity.java" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Ch03FirstExamp Manifest" index="13"/>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
-</item>
-<item historyLabel="Ch03FirstExamp Manifest" index="13"/>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="14"/>
-<item historyLabel="R.java" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="14"/>
-<item historyLabel="project.properties" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="strings.xml" index="14"/>
-<item historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
-</item>
-<item historyLabel="Ch03FirstExamp Manifest" index="13"/>
-<item active="true" historyLabel="Ch03FirstExamp.java" index="7">
-<position info="not_deleted" x="368" y="0"/>
-</item>
+<item historyLabel="Ch05app2me Manifest" index="12"/>
+<item historyLabel="strings.xml" index="13"/>
+<item historyLabel="activity_main.xml" index="14"/>
+<item historyLabel="strings.xml" index="16"/>
+<item active="true" historyLabel="activity_main.xml" index="14"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -534,6 +544,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="activity_main.xml" tooltip="Ch05app2me/res/layout/activity_main.xml">
+<persistable path="/Ch05app2me/res/layout/activity_main.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch05app2me/res/values/strings.xml">
+<persistable path="/Ch05app2me/res/values/strings.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch05app2me/AndroidManifest.xml">
+<persistable path="/Ch05app2me/AndroidManifest.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MainActivity.java" tooltip="Ch05app2me/src/kojen/ch05app2me/MainActivity.java">
+<persistable path="/Ch05app2me/src/kojen/ch05app2me/MainActivity.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch03FirstExamp/AndroidManifest.xml">
 <persistable path="/Ch03FirstExamp/AndroidManifest.xml"/>
 </file>
@@ -566,18 +588,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch05Button1/AndroidManifest.xml">
 <persistable path="/Ch05Button1/AndroidManifest.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="project.properties" tooltip="Ch05Button1/project.properties">
-<persistable path="/Ch05Button1/project.properties"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch05Button1.java" tooltip="Ch05Button1/src/andbas/Ch05Button1/Ch05Button1.java">
-<persistable path="/Ch05Button1/src/andbas/Ch05Button1/Ch05Button1.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="time_row.xml" tooltip="TimeTracker/res/layout/time_row.xml">
-<persistable path="/TimeTracker/res/layout/time_row.xml"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="test.xml" tooltip="TimeTracker/test.xml">
-<persistable path="/TimeTracker/test.xml"/>
 </file>
 </mruList>
 </workbench>

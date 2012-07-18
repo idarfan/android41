@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <FrameLayout android:id="@+id/fragment_content"
+                 android:layout_width="match_parent"
+                 android:layout_height="0dip"
+                 android:layout_weight="1" >
+		<LinearLayout android:id="@+id/tab1"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="70dp" >
+		    <TextView
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tvPtEdu" />
+		    <Spinner
+		        android:id="@+id/spnIdEdu"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:entries="@array/spnEduList" />
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/tab2"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="140dp" >
+		    <Button
+		        android:id="@+id/btIdDialer"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btPtDialer" />		
+		    <Button
+		        android:id="@+id/btIdBrowser"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btPtBrowser" />
+
+    	</LinearLayout>
+	</FrameLayout>
+</LinearLayout>

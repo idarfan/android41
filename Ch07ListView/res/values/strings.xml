@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch07選項清單</string>
+    <string name="tvPtEdu">請選擇教育程度：</string>
+    <string name="btPtSure">確定</string>
+    <string-array name="lvEduList">
+        <item>國小</item>
+        <item>國中</item>
+        <item>高中</item>
+        <item>大學</item>
+        <item>碩士</item>
+        <item>博士</item>
+    </string-array>
+        
+</resources>

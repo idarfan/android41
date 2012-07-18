@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch11Dialog視窗區塊</string>
+    <string name="btPtExitEd">結束編輯程式</string>
+    <string name="aldTitle">結束編輯程式</string>
+    <string name="aldPrompt">是否儲存編輯內容?</string>
+    <string name="btPtPosit">是</string>    
+    <string name="btPtNeg">否</string>
+    <string name="btPtNeut">取消</string>
+    <string name="alert_dialog">示範對話方塊的視窗區塊</string>
+</resources>

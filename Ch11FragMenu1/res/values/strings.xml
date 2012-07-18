@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch11功能表Frag1</string>
+    <string name="fragmenumsg">示範由 兩個功能表 組成的 視窗區塊，
+        			您可切換顯示 或 隱藏並移除它們 !</string>
+    <string name="fragmenu1">顯示   第1個功能表   視窗區塊</string>
+    <string name="fragmenu2">顯示   第2個功能表   視窗區塊</string>
+</resources>

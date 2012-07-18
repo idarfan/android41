@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="本例示範由 活動 及 服務 互傳訊息!" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btIdSendMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="互傳送訊息" />
+        <Button
+            android:id="@+id/btIdEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="結束作業" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvIdServRecMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvIdActRecMsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

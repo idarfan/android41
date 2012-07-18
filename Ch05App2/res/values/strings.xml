@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">撰寫第2個專案</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtSure">確定</string>
+
+</resources>

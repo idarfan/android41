@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch07核取方塊及捲軸</string>
+    <string name="tvPtPosit">請選擇您的工作經歷:(可複選)</string>
+    <string name="btPtSure">確定</string>
+    <string name="chbPtSalSup">業務主管  </string>
+    <string name="chbPtMangSup">管理主管  </string>
+    <string name="chbPtPersSup">人事主管  </string>
+    <string name="chbPtAdmSup">行政主管  </string>
+    <string name="chbPtSalPer">業務人員  </string>
+    <string name="chbPtSalEng">業務工程師  </string>
+    <string name="chbPtOpMang">營運管理師  </string>
+    <string name="chbPtAdmPer">行政人員 </string>
+    <string name="chbPtSenSecr">高階祕書  </string>
+    <string name="chbPtSalAss">業務助理  </string>
+</resources>

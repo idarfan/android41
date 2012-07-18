@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch14播放外部音樂</string>
+    <string name="tvPtMsu">請選擇欲播放的音樂來源：</string>
+    <string-array name="lvMusRes">
+        <item>來自SDCard</item>
+        <item>來自網站資源</item>
+    </string-array>
+</resources>

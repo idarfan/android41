@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch07檢視照片</string>
+    <string name="btPtNext">下一張</string>
+    <string name="btPtPrev">前一張</string>
+    <string name="tvPtAlp">調整照片透明度：</string>
+        
+</resources>

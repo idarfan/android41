@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Ch03FirstExamp!</string>
+    <string name="app_name">Ch03第1個例子</string>
+
+</resources>

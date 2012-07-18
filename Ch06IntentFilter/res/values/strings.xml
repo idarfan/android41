@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ch06意圖篩選器</string>
+    <string name="btPtDialer">撥打電話</string>
+    <string name="btPtBrowser">瀏覽網頁</string>
+    <string name="btPtPlayer">播放音樂</string>
+    <string name="btPtPhoto">檢視照片</string>
+    <string name="AntAct_name">Ch06替代活動</string>
+                
+</resources>

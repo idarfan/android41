@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch05切換按鈕</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="etHtSex">請輸入姓別</string>
+    <string name="tbPtSet">設定新顏色</string>
+    <string name="tbPtRest">恢復原來顏色</string>
+</resources>

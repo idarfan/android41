@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch09對話方塊含選項</string>
+    <string name="tvPtColor1">顏色1</string>
+    <string name="tvPtColor2">顏色2</string>
+    <string name="tvPtHobby">興趣</string>
+    <string name="etHtColor">請按Enter選擇顏色</string>
+    <string name="etHtHobby">請按Enter選擇興趣</string>
+</resources>

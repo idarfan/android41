@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+		android:textSize="20sp"
+		android:textColor="#ff00ff00"
+        android:text="本例示範   顯示或隱藏   視窗區塊  !" />
+    <Button android:id="@+id/btHideShow"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"
+            android:text="Show 第2個視窗區塊" />
+</LinearLayout>

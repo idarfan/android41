@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch14錄製音樂</string>
+    <string name="info">錄音測試</string>
+    <string name="startRec">開始錄音</string>
+    <string name="stopRec">停止錄音</string>
+    <string name="play">播放錄音</string>
+    <string name="stopPlay">停止播放</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch11動作列標籤頁2</string>
+    <string name="tvPtPho1">檢視照片1</string>
+    <string name="tvPtPho2">檢視照片2</string>
+</resources>

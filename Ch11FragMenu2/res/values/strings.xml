@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch11功能表Frag2</string>
+    <string name="fragmsg">本例示範由 快顯功能表(Context Menu)所組成的視窗區塊 !</string>
+    <string name="long_press">請長按此鈕 看快顯功能表</string>
+</resources>

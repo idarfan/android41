@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+    "http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="以ImageView顯示照片" />
+    <ImageView
+        android:id="@+id/ivIdPhoto1"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:src="@drawable/photo1" />
+    <ImageView
+        android:id="@+id/ivIdPhoto2"
+        android:layout_width="150dp"
+        android:layout_height="90dp" />
+    <ImageView
+        android:id="@+id/ivIdPhoto3"
+        android:layout_width="150dp"
+        android:layout_height="90dp" />
+</LinearLayout>
