@@ -4533,3 +4533,6 @@ android.content.res.Resources$NotFoundException
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2012-07-18 15:11:48.050
 !MESSAGE Failed to load properties file for project 'Ch05Button1me'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-18 18:10:04.127
+!MESSAGE Failed to load properties file for project 'Ch05Button2me'
