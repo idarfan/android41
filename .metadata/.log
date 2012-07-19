@@ -4548,3 +4548,21 @@ android.content.res.Resources$NotFoundException
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2012-07-18 21:27:31.868
 !MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+!SESSION 2012-07-19 12:27:37.701 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-07-19 12:37:58.661
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY org.eclipse.ui 4 4 2012-07-19 12:39:40.117
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.ProblemView.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-19 14:52:59.706
+!MESSAGE Failed to load properties file for project 'Ch05Button4meKai'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 14:54:12.862
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
