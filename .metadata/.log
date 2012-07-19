@@ -4566,3 +4566,21 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 14:54:12.862
 !MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-19 18:32:58.199
+!MESSAGE Failed to load properties file for project 'Ch05GetResme'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 18:42:54.474
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-19 20:27:32.552
+!MESSAGE Failed to load properties file for project 'Ch05ImgButtonme'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 20:31:00.865
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-19 21:01:39.429
+!MESSAGE Failed to load properties file for project 'Ch05DynButtonme'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 21:02:55.824
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world

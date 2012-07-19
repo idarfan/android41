@@ -4,4 +4,6 @@
     <string name="stytext">
     	<i>Android 4.0</i>， <u>應用程式專案開發</u>，<b>從心開始</b>
     </string>
+    <string name="StopMusic">結束並停止音樂</string>
+    <string name="ImageDesc">I dunno</string>
 </resources>

@@ -28,6 +28,8 @@ public final class R {
         public static final int skycity=0x7f040000;
     }
     public static final class string {
+        public static final int ImageDesc=0x7f050003;
+        public static final int StopMusic=0x7f050002;
         public static final int app_name=0x7f050000;
         public static final int stytext=0x7f050001;
     }

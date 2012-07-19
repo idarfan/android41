@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Ch05DynButtonme</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch05_dyn_buttonme">Ch05DynButtonme</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtSure">確定</string>
+
+</resources>
