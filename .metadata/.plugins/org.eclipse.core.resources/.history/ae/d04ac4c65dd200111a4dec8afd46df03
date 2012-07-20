@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ch05MultiLang</string>
+    <string name="tvPtName">Name:</string>
+    <string name="tvPtSex">Sex:</string>
+    <string name="etHtSex">Please Input Sex</string>
+    <string name="tbPtSet">Set New Color</string>
+    <string name="tbPtRest">Restore Old Color</string>
+</resources>
