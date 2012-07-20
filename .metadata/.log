@@ -4599,3 +4599,9 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.ui 4 4 2012-07-20 14:28:28.431
 !MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-20 17:25:21.959
+!MESSAGE Failed to load properties file for project 'Ch05TgButtonMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-20 17:29:27.731
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world

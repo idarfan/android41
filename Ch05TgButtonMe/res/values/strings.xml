@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Ch05TgButtonMe切換按鈕</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch05_tg_button_me">Ch05TgButtonMe</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>   
+    <string name="enterYourSex">請輸入你的性別</string>
+    <string name="enterYourName">請輸入你的姓名</string>
+    <string name="tbPtSet">設定新顏色</string>
+    <string name="tbPtRest">恢復原來顏色</string>        
+
+</resources>

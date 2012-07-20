@@ -1,0 +1,58 @@
+package kojen.Ch05TgButtonMe;
+
+import andbas.Ch05TgButton.R;
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.EditText;
+import android.widget.ToggleButton;
+
+
+public class Ch05TgButtonMe extends Activity {
+	private ToggleButton tbSet;
+	private EditText etName;
+	private EditText etSex;
+	private int defBgColr=Color.YELLOW;
+	private int defTexColr=Color.RED;
+	private int newBgColr=Color.GREEN;
+	private int newTxtColr=Color.BLUE;
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        buildViews(); //user define
+    }
+    private void buildViews() {
+    	etName.setBackgroundColor(defBgColr);
+    	etName.setTextColor(defTexColr);
+    	etSex.setBackgroundColor(defBgColr);
+    	etSex.setTextColor(defTexColr);
+    	tbSet = (ToggleButton)findViewById(R.id.tbIdset);
+    	tbSet.setChecked(false);
+    	tbSet.setText(R.string.tbPtSet);
+    	tbSet.setOnClickListener(tblistener);    	
+    }
+    private OnClickListener tblistener = 
+    		new OnClickListener() {    
+    	public void onClick(View v) {
+    		ToggleButton tb=(ToggleButton) v;
+    		if (tb.isChecked()){
+    			tb.setText(R.string.tbPtRest);
+    	    	etName.setBackgroundColor(newBgColr);
+    	    	etName.setTextColor(newTxtColr);
+    	    	etSex.setBackgroundColor(newBgColr);
+    	    	etSex.setTextColor(newTxtColr);  			
+    		} else {
+    			tb.setText(R.string.tbPtSet);
+    			etName.setBackgroundColor(defBgColr);
+    	    	etName.setTextColor(defTxtColr);
+    	    	etSex.setBackgroundColor(defBgColr);
+    	    	etSex.setTextColor(defTxtColr);
+    		}			
+    	}
+    };
+}
