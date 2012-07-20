@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">Ch05edTextMe監控文字欄位</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch05ed_text_me">Ch05edTextMe</string>
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtSure">確定</string>
+    <string name="etHtSex">請輸入性別,輸入完請按Done</string>
+    <string name="enterYourName">請輸入你的姓名</string>    
+
+</resources>

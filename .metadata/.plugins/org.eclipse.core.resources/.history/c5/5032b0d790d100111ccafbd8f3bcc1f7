@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Ch05存取Res資料</string>
-    <string name="stytext">
-    	<i>Android 4.0</i>， <u>應用程式專案開發</u>，<b>從心開始</b>
-    </string>
-</resources>

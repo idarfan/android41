@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;drawable&apos;&#x0A;- Original project: &apos;Ch05DynButtonme&apos;&#x0A;- Destination element: &apos;drawable&apos;&#x0A;- Original elements:&#x0A;     dynbutt_focused.png&#x0A;     dynbutt_normal.png&#x0A;     dynbutt_pressed.png&#x0A;     dynbutt.xml" description="Copy files" element1="res/drawable/dynbutt_focused.png" element2="res/drawable/dynbutt_normal.png" element3="res/drawable/dynbutt_pressed.png" element4="res/drawable/dynbutt.xml" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1342765790954" target="/Ch05edTextMe/res/drawable" units="0" version="1.0"/>
+</session>

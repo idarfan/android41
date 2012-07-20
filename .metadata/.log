@@ -4584,3 +4584,18 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2012-07-19 21:02:55.824
 !MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+!SESSION 2012-07-20 14:18:11.697 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-20 14:20:31.152
+!MESSAGE Failed to load properties file for project 'Ch05edTextMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-20 14:22:57.412
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY org.eclipse.ui 4 4 2012-07-20 14:28:28.431
+!MESSAGE Invalid preference page path: XML Syntax
