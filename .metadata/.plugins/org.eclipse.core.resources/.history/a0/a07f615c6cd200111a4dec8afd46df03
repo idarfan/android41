@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Ch06startActWoBundleMe呼叫活動未帶資料</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch06start_act_wo_bundle_me">Ch06startActWoBundleMe</string>
+
+</resources>
