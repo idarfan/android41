@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LogSuccAct.java&apos; to &apos;Ch06StartActWTBundleMe/src/kojen.Ch06StartActWTBundleMe&apos;&#x0A;- Original project: &apos;Ch06StartActWoBundleMe&apos;&#x0A;- Destination element: &apos;Ch06StartActWTBundleMe/src/kojen.Ch06StartActWTBundleMe&apos;&#x0A;- Original element: &apos;kojen.Ch06StartActWoBundleMe.LogSuccAct.java&apos;" description="Copy compilation unit" destination="=Ch06StartActWTBundleMe/src&lt;kojen.Ch06StartActWTBundleMe" element1="/src&lt;kojen.Ch06StartActWoBundleMe{LogSuccAct.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1342858872433" units="1" version="1.0"/>
+</session>

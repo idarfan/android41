@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="android.widget.ToggleButton"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="kojen.Ch05TgButtonMe.R.id"/>
+<fullyQualifiedTypeName name="kojen.Ch05TgButtonMe.R.string"/>
 </qualifiedTypeNameHistroy>
