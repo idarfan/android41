@@ -1,12 +1,11 @@
 <resources>
 
-    <string name="app_name">Ch06ActSpecTaskMe</string>    
+    <string name="app_name">Ch06ActSpecTaskMe執行特定工作的活動</string>    
     <string name="menu_settings">Settings</string>
     <string name="title_activity_ch06_act_spec_task_me">Ch06ActSpecTaskMe</string>
     <string name="btPtDialer">撥打電話</string>
     <string name="btPtBrowser">瀏覽網頁</string>
     <string name="btPtPlayer">播放音樂</string>
-    <string name="btPtPhoto">檢視照片</string>
-    <string name="AntAct_name">Ch06替代活動</string>
+    <string name="btPtPhoto">檢視照片</string>    
                 
 </resources>

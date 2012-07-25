@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Ch06IntentFilterMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch06_intent_filter_me">Ch06IntentFilterMe</string>
+
+</resources>

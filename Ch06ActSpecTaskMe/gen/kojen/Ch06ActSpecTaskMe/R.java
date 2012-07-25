@@ -34,7 +34,6 @@ public final class R {
         public static final int main=0x7f070000;
     }
     public static final class string {
-        public static final int AntAct_name=0x7f050007;
         public static final int app_name=0x7f050000;
         public static final int btPtBrowser=0x7f050004;
         public static final int btPtDialer=0x7f050003;
