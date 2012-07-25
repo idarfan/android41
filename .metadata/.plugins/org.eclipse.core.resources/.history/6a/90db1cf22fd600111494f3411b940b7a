@@ -47,8 +47,7 @@ public class Ch06ActSpecTaskMe extends Activity {
 			Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 			startActivity(intent);
     	}
-    };
-    /* 底下的寫法不能用File file = new File("/sdcard/tmp/rose.mp3"); 直指路徑的方式 */
+    };   
     private OnClickListener btPlayListener = new OnClickListener() {    	
 		public void onClick(View v) {      
 			Intent intent = new Intent(Intent.ACTION_VIEW);
