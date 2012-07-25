@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Ch06ActSpecTaskMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch06_act_spec_task_me">Ch06ActSpecTaskMe</string>
+
+</resources>
