@@ -5,4 +5,8 @@
 <fullyQualifiedTypeName name="android.graphics.Color"/>
 <fullyQualifiedTypeName name="kojen.Ch05TgButtonMe.R.id"/>
 <fullyQualifiedTypeName name="kojen.Ch05TgButtonMe.R.string"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.view.WindowManager"/>
+<fullyQualifiedTypeName name="android.view.inputmethod.InputMethodManager"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="24" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
-<window height="701" maximized="true" width="996" x="323" y="142">
+<window height="691" maximized="true" width="992" x="323" y="142">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -22,7 +22,7 @@
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="124" y="30"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="68" y="30"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="184" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -39,52 +39,59 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/kojendirect/workspace/Ch06StartActForResultMe/res/layout/main.xml" title="main.xml" tooltip="Ch06StartActForResultMe/res/layout/main.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/res/layout/main.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch06IntentFilterMe.java" partName="Ch06IntentFilterMe.java" path="/home/kojendirect/workspace/Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/Ch06IntentFilterMe.java" title="Ch06IntentFilterMe.java" tooltip="Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/Ch06IntentFilterMe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/Ch06IntentFilterMe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="454" selectionTopPixel="0"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/kojendirect/workspace/Ch06StartActForResultMe/res/values/strings.xml" title="strings.xml" tooltip="Ch06StartActForResultMe/res/values/strings.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/res/values/strings.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AnotherAct.java" partName="AnotherAct.java" path="/home/kojendirect/workspace/Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/AnotherAct.java" title="AnotherAct.java" tooltip="Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/AnotherAct.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06IntentFilterMe/src/kojen/Ch06IntentFilterMe/AnotherAct.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="241" selectionTopPixel="186"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogSuccAct.java" partName="LogSuccAct.java" path="/home/kojendirect/workspace/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java" title="LogSuccAct.java" tooltip="Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="349" selectionTopPixel="0"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="anotheract.xml" partName="anotheract.xml" path="/home/kojendirect/workspace/Ch06IntentFilterMe/res/layout/anotheract.xml" title="anotheract.xml" tooltip="Ch06IntentFilterMe/res/layout/anotheract.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06IntentFilterMe/res/layout/anotheract.xml"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch06StartActForResultMe.java" partName="Ch06StartActForResultMe.java" path="/home/kojendirect/workspace/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java" title="Ch06StartActForResultMe.java" tooltip="Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1303" selectionTopPixel="167"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/kojendirect/workspace/Ch06IntentFilterMe/res/layout/main.xml" title="main.xml" tooltip="Ch06IntentFilterMe/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06IntentFilterMe/res/layout/main.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="logsucc.xml" partName="logsucc.xml" path="/home/kojendirect/workspace/Ch06StartActForResultMe/res/layout/logsucc.xml" title="logsucc.xml" tooltip="Ch06StartActForResultMe/res/layout/logsucc.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/res/layout/logsucc.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" partName="strings.xml" path="/home/kojendirect/workspace/Ch07RadioGroupMe/res/values/strings.xml" title="strings.xml" tooltip="Ch07RadioGroupMe/res/values/strings.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch07RadioGroupMe/res/values/strings.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" partName="Ch06StartActForResultMe Manifest" path="/home/kojendirect/workspace/Ch06StartActForResultMe/AndroidManifest.xml" title="Ch06StartActForResultMe Manifest" tooltip="Ch06StartActForResultMe/AndroidManifest.xml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch06StartActForResultMe/AndroidManifest.xml"/>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" partName="main.xml" path="/home/kojendirect/workspace/Ch07RadioGroupMe/res/layout/main.xml" title="main.xml" tooltip="Ch07RadioGroupMe/res/layout/main.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch07RadioGroupMe/res/layout/main.xml"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch07RadioGroupMe.java" partName="Ch07RadioGroupMe.java" path="/home/kojendirect/workspace/Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java" title="Ch07RadioGroupMe.java" tooltip="Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1670" selectionTopPixel="883"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy">
 <viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" input="=TimeTracker" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" selection="=TimeTracker/\/home\/kojendirect\/android-sdk-linux\/platforms\/android-16\/android.jar&lt;java.lang(Object.class[Object" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName="Aggregate for window 1331610475823"/>
 </view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
+<view id="com.android.ide.eclipse.ddms.views.DeviceView" partName="Devices">
 <viewState/>
 </view>
-<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables"/>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView" partName="Threads">
+<viewState/>
+</view>
+<view id="org.eclipse.cdt.debug.ui.executablesView" partName="Executables">
+<viewState/>
+</view>
 <view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
 <viewState activate="true" allSessions="true" column2="817" column3="224" column4="272" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="0" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
 </view>
 <view id="com.spket.ui.docview" partName="Documentation">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.BreakpointView" partName="Breakpoints">
 <viewState/>
 </view>
 <view id="org.eclipse.debug.ui.VariableView" partName="Variables">
@@ -105,10 +112,14 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.HeapView" partName="Heap"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView" partName="LogCat">
+<viewState/>
+</view>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView" partName="File Explorer">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
@@ -120,10 +131,21 @@
 <filter element="*.class" isEnabled="false"/>
 <filter element=".*" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/Ch07RadioGroupMe"/>
+</expanded>
+<selection>
+<element path="/Ch07RadioGroupMe"/>
+</selection>
 </viewState>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView" partName="Network Statistics"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (25 items)"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="120" org.eclipse.ui.ide.markerType="611" org.eclipse.ui.ide.pathField="160" org.eclipse.ui.ide.resourceField="345" org.eclipse.ui.ide.severityAndDescriptionField="999"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -137,9 +159,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1331610475823">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
 <child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
@@ -164,9 +184,11 @@
 </customFilters>
 </viewState>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView" partName="Emulator Control"/>
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
 <viewState/>
 </view>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView" partName="Allocation Tracker"/>
 <view id="com.spket.ui.paletteViewer" partName="Snippets">
 <viewState/>
 </view>
@@ -174,7 +196,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.views.ResourceNavigator" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -266,7 +288,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20970641" ratioLeft="350" ratioRight="1319" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.06351108" ratioLeft="106" ratioRight="1563" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.95785874" ratioLeft="841" ratioRight="37" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -290,7 +312,7 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.91673213" ratioLeft="1167" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="right" ratio="0.9194529" ratioLeft="1210" ratioRight="106" relationship="2" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
@@ -445,6 +467,8 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
 <alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="register"/>
+<alwaysOnActionSet id="com.soyatec.uml.UMLElementCreationActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
 <show_view_action id="org.eclipse.debug.ui.DebugView"/>
 <show_view_action id="org.eclipse.debug.ui.VariableView"/>
@@ -477,26 +501,31 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.cdt.debug.ui.executablesView"/>
-<view id="org.eclipse.debug.ui.DebugView"/>
 <view id="org.eclipse.debug.ui.VariableView"/>
-<view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.DebugView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.74914867" ratioLeft="660" ratioRight="221" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.60136676" ratioLeft="528" ratioRight="350" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.cdt.debug.ui.executablesView" label="Executables"/>
@@ -504,35 +533,125 @@
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@23dbf79f" ratio="0.23007789" ratioLeft="384" ratioRight="1285" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@23dbf79f" ratio="0.14739364" ratioLeft="246" ratioRight="1423" relationship="2" relative="org.eclipse.debug.internal.ui.ConsoleFolderView">
+<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">
+<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.45" ratioLeft="297" ratioRight="363" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.gdb.ui.tracecontrol.view" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.dsf.debug.ui.disassembly.view" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
-<page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="836" ratioRight="836" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
+<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
+<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<page content="org.eclipse.debug.ui.BreakpointView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
 <page content="org.eclipse.cdt.debug.ui.SignalsView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.ModuleView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="0" fixed="0" version="0.016">
+<descriptor class="com.android.ide.eclipse.ddms.Perspective" id="com.android.ide.eclipse.ddms.Perspective" label="DDMS"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="register"/>
+<alwaysOnActionSet id="com.soyatec.uml.UMLElementCreationActionSet"/>
+<alwaysOnActionSet id="adt.actionSet.wizards"/>
+<alwaysOnActionSet id="adt.actionSet.refactorings"/>
+<alwaysOnActionSet id="adt.actionSet.avdManager"/>
+<alwaysOnActionSet id="adt.actionSet.lint"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.HeapView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.ThreadView"/>
+<show_view_action id="com.android.ide.eclipse.ddms.views.NetworkStatsView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.BookmarkView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="com.android.ide.eclipse.ddms.views.LogCatView"/>
+<view id="com.android.ide.eclipse.ddms.views.DeviceView"/>
+<view id="com.android.ide.eclipse.ddms.views.ThreadView"/>
+<view id="com.android.ide.eclipse.ddms.views.HeapView"/>
+<view id="com.android.ide.eclipse.ddms.views.AllocTrackerView"/>
+<view id="com.android.ide.eclipse.ddms.views.NetworkStatsView"/>
+<view id="com.android.ide.eclipse.ddms.views.FileExplorerView"/>
+<view id="com.android.ide.eclipse.ddms.views.EmulatorControlView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="devices">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.DeviceView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.DeviceView" label="Devices"/>
+<page content="com.android.ide.eclipse.ddms.views.DeviceView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="devices">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="logcat" ratio="0.79909194" ratioLeft="704" ratioRight="177" relationship="4" relative="devices">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.LogCatView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.LogCatView" label="LogCat"/>
+<page content="com.android.ide.eclipse.ddms.views.LogCatView:*" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.29964116" ratioLeft="501" ratioRight="1171" relationship="2" relative="devices"/>
+<info folder="true" part="ddms-detail" ratio="0.49957302" ratioLeft="585" ratioRight="586" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="com.android.ide.eclipse.ddms.views.FileExplorerView" appearance="2" expanded="2">&#x0A;<page content="com.android.ide.eclipse.ddms.views.ThreadView" label="Threads"/>
+<page content="com.android.ide.eclipse.ddms.views.HeapView" label="Heap"/>
+<page content="com.android.ide.eclipse.ddms.views.AllocTrackerView" label="Allocation Tracker"/>
+<page content="com.android.ide.eclipse.ddms.views.NetworkStatsView" label="Network Statistics"/>
+<page content="com.android.ide.eclipse.ddms.views.FileExplorerView" label="File Explorer"/>
+<page content="com.android.ide.eclipse.ddms.views.EmulatorControlView" label="Emulator Control"/>
+<page content="com.android.ide.eclipse.ddms.views.ThreadView:*" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
@@ -543,120 +662,105 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActWTBundleMe/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActWTBundleMe/src/kojen/Ch06StartActWTBundleMe/Ch06StartActWTBundleMe.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch06StartActWTBundleMe/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActWTBundleMe/src/kojen/Ch06StartActWTBundleMe/LogSuccAct.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch05edTextMe/src/kojen/Ch05edTextMe/Ch05edTextMe.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActForResultMe/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActForResultMe/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05MultiLangMe/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch05TgButtonMe/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch06StartActWoBundleMe/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActWoBundleMe/src/kojen/Ch06StartActWoBundleMe/Ch06StartActWoBundleMe.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05TgButtonMe/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroupMe/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch07RadioGroup/src/andbas/Ch07RadioGroup/Ch07RadioGroup.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroup/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroup/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroupMe/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06IntentFilter/res/layout/main.xml"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05TgButtonMe/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActWoBundleMe/res/values/strings.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActWoBundleMe/res/layout/logsucc.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActWoBundleMe/src/kojen/Ch06StartActWoBundleMe/LogSuccAct.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActWoBundleMe/res/layout/main.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06startActForResult/src/andbas/Ch06startActForResult/LogSuccAct.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06startActForResult/src/andbas/Ch06startActForResult/Ch06startActForResult.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06StartActForResultMe/res/layout/logsucc.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch06StartActForResultMe/AndroidManifest.xml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch06startActForResult/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch05MultiLangMe/res/values-jp-rJP/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroup/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroupMe/res/layout/main.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch07RadioGroupMe/res/values/strings.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06ActSpecTaskMe/res/layout/anotheract.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" path="/Ch06IntentFilterMe/AndroidManifest.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" path="/Ch06IntentFilterMe/res/layout/main.xml"/>
 </editors>
-<item historyLabel="LogSuccAct.java" index="3">
-<position info="not_deleted" x="557" y="0"/>
-</item>
-<item historyLabel="Ch06StartActWTBundleMe.java" index="1">
-<position info="not_deleted" x="1273" y="0"/>
-</item>
-<item historyLabel="Ch06StartActWTBundleMe Manifest" index="2"/>
 <item historyLabel="strings.xml" index="0"/>
-<item historyLabel="Ch06StartActWTBundleMe Manifest" index="2"/>
-<item historyLabel="Ch05edTextMe.java" index="4">
-<position info="not_deleted" x="1354" y="0"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="main.xml" index="5"/>
+<item historyLabel="main.xml" index="6"/>
+<item historyLabel="main.xml" index="5"/>
+<item historyLabel="main.xml" index="6"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="main.xml" index="3"/>
+<item historyLabel="main.xml" index="4"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="Ch07RadioGroup.java" index="1">
+<position info="not_deleted" x="0" y="1995"/>
 </item>
-<item historyLabel="Ch06StartActWTBundleMe Manifest" index="2"/>
-<item historyLabel="main.xml" index="7"/>
-<item historyLabel="Ch06StartActWTBundleMe Manifest" index="2"/>
-<item historyLabel="Ch06StartActWTBundleMe.java" index="1">
-<position info="not_deleted" x="1273" y="0"/>
+<item historyLabel="strings.xml" index="2"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="2117" y="0"/>
 </item>
-<item historyLabel="strings.xml" index="6"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="Ch06StartActWTBundleMe.java" index="1">
-<position info="not_deleted" x="1273" y="0"/>
+<item historyLabel="strings.xml" index="8"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="2117" y="0"/>
 </item>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="Ch05TgButtonMe Manifest" index="8"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="Ch06StartActWoBundleMe Manifest" index="9"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="Ch06StartActWoBundleMe.java" index="10">
-<position info="not_deleted" x="660" y="0"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1896" y="0"/>
 </item>
-<item historyLabel="main.xml" index="5"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1712" y="0"/>
+</item>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="2298" y="0"/>
+</item>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="187" y="0"/>
+</item>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="2260" y="60"/>
+</item>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1951" y="0"/>
+</item>
+<item historyLabel="strings.xml" index="9"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1572" y="0"/>
+</item>
+<item historyLabel="main.xml" index="10"/>
 <item historyLabel="strings.xml" index="11"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="main.xml" index="12"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="strings.xml" index="13"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="logsucc.xml" index="14"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="LogSuccAct.java" index="15">
-<position info="not_deleted" x="336" y="0"/>
+<item historyLabel="main.xml" index="10"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1572" y="0"/>
 </item>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="main.xml" index="16"/>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="LogSuccAct.java" index="17">
-<position/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="2013" y="0"/>
 </item>
-<item historyLabel="main.xml" index="5"/>
-<item historyLabel="LogSuccAct.java" index="18">
-<position info="not_deleted" x="925" y="0"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1917" y="0"/>
 </item>
-<item historyLabel="Ch06startActForResult.java" index="19">
-<position info="not_deleted" x="0" y="2139"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="Ch06StartActForResultMe.java" index="20">
-<position info="not_deleted" x="1823" y="0"/>
+<item historyLabel="main.xml" index="10"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="anotheract.xml" index="12"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="anotheract.xml" index="12"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="Ch06IntentFilterMe Manifest" index="13"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="main.xml" index="14"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1217" y="0"/>
 </item>
-<item historyLabel="Ch06startActForResult.java" index="19">
-<position info="not_deleted" x="0" y="2139"/>
+<item historyLabel="main.xml" index="10"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="main.xml" index="10"/>
+<item historyLabel="strings.xml" index="11"/>
+<item historyLabel="main.xml" index="10"/>
+<item historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1431" y="0"/>
 </item>
-<item historyLabel="Ch06StartActForResultMe.java" index="20">
-<position info="not_deleted" x="1823" y="0"/>
-</item>
-<item historyLabel="LogSuccAct.java" index="18">
-<position info="not_deleted" x="925" y="0"/>
-</item>
-<item historyLabel="Ch06StartActForResultMe.java" index="20">
-<position info="not_deleted" x="1823" y="0"/>
-</item>
-<item historyLabel="logsucc.xml" index="21"/>
-<item historyLabel="Ch06StartActForResultMe Manifest" index="22"/>
-<item historyLabel="Ch06startActForResult Manifest" index="23"/>
-<item historyLabel="Ch06StartActForResultMe Manifest" index="22"/>
-<item historyLabel="Ch06StartActForResultMe.java" index="20">
-<position info="not_deleted" x="1612" y="0"/>
-</item>
-<item historyLabel="LogSuccAct.java" index="18">
-<position info="not_deleted" x="925" y="0"/>
-</item>
-<item historyLabel="LogSuccAct.java" index="17">
-<position info="not_deleted" x="1438" y="0"/>
-</item>
-<item historyLabel="LogSuccAct.java" index="18">
-<position info="not_deleted" x="349" y="0"/>
-</item>
-<item active="true" historyLabel="Ch06StartActForResultMe.java" index="20">
-<position info="not_deleted" x="1612" y="0"/>
+<item historyLabel="main.xml" index="10"/>
+<item active="true" historyLabel="Ch07RadioGroupMe.java" index="7">
+<position info="not_deleted" x="1431" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -675,50 +779,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogSuccAct.java" tooltip="Ch06startActForResult/src/andbas/Ch06startActForResult/LogSuccAct.java">
-<persistable path="/Ch06startActForResult/src/andbas/Ch06startActForResult/LogSuccAct.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch05MultiLangMe/res/values-jp-rJP/strings.xml">
+<persistable path="/Ch05MultiLangMe/res/values-jp-rJP/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06startActForResult/AndroidManifest.xml">
-<persistable path="/Ch06startActForResult/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch07RadioGroupMe.java" tooltip="Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java">
+<persistable path="/Ch07RadioGroupMe/src/kojen/Ch07RadioGroupMe/Ch07RadioGroupMe.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06StartActForResultMe/AndroidManifest.xml">
-<persistable path="/Ch06StartActForResultMe/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch05TgButtonMe/res/layout/main.xml">
+<persistable path="/Ch05TgButtonMe/res/layout/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="logsucc.xml" tooltip="Ch06StartActForResultMe/res/layout/logsucc.xml">
-<persistable path="/Ch06StartActForResultMe/res/layout/logsucc.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch06IntentFilter/res/layout/main.xml">
+<persistable path="/Ch06IntentFilter/res/layout/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch06StartActForResultMe.java" tooltip="Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java">
-<persistable path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/Ch06StartActForResultMe.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch07RadioGroupMe/res/layout/main.xml">
+<persistable path="/Ch07RadioGroupMe/res/layout/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch06startActForResult.java" tooltip="Ch06startActForResult/src/andbas/Ch06startActForResult/Ch06startActForResult.java">
-<persistable path="/Ch06startActForResult/src/andbas/Ch06startActForResult/Ch06startActForResult.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch07RadioGroup/res/layout/main.xml">
+<persistable path="/Ch07RadioGroup/res/layout/main.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogSuccAct.java" tooltip="Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java">
-<persistable path="/Ch06StartActForResultMe/src/kojen/Ch06StartActForResultMe/LogSuccAct.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch07RadioGroup/res/values/strings.xml">
+<persistable path="/Ch07RadioGroup/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch06StartActForResultMe/res/values/strings.xml">
-<persistable path="/Ch06StartActForResultMe/res/values/strings.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch07RadioGroup.java" tooltip="Ch07RadioGroup/src/andbas/Ch07RadioGroup/Ch07RadioGroup.java">
+<persistable path="/Ch07RadioGroup/src/andbas/Ch07RadioGroup/Ch07RadioGroup.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch06StartActForResultMe/res/layout/main.xml">
-<persistable path="/Ch06StartActForResultMe/res/layout/main.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch07RadioGroupMe/res/values/strings.xml">
+<persistable path="/Ch07RadioGroupMe/res/values/strings.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch05edTextMe.java" tooltip="Ch05edTextMe/src/kojen/Ch05edTextMe/Ch05edTextMe.java">
-<persistable path="/Ch05edTextMe/src/kojen/Ch05edTextMe/Ch05edTextMe.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06ActSpecTaskMe/AndroidManifest.xml">
+<persistable path="/Ch06ActSpecTaskMe/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="strings.xml" tooltip="Ch06StartActWTBundleMe/res/values/strings.xml">
-<persistable path="/Ch06StartActWTBundleMe/res/values/strings.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="anotheract.xml" tooltip="Ch06ActSpecTaskMe/res/layout/anotheract.xml">
+<persistable path="/Ch06ActSpecTaskMe/res/layout/anotheract.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06startActWtBundle/AndroidManifest.xml">
-<persistable path="/Ch06startActWtBundle/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ch06ActSpecTaskMe.java" tooltip="Ch06ActSpecTaskMe/src/kojen/Ch06ActSpecTaskMe/Ch06ActSpecTaskMe.java">
+<persistable path="/Ch06ActSpecTaskMe/src/kojen/Ch06ActSpecTaskMe/Ch06ActSpecTaskMe.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogSuccAct.java" tooltip="Ch06StartActWTBundleMe/src/kojen/Ch06StartActWTBundleMe/LogSuccAct.java">
-<persistable path="/Ch06StartActWTBundleMe/src/kojen/Ch06StartActWTBundleMe/LogSuccAct.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06IntentFilterMe/AndroidManifest.xml">
+<persistable path="/Ch06IntentFilterMe/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogSuccAct.java" tooltip="Ch06startActWtBundle/src/andbas/Ch06startActWtBundle/LogSuccAct.java">
-<persistable path="/Ch06startActWtBundle/src/andbas/Ch06startActWtBundle/LogSuccAct.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06IntentFilter/AndroidManifest.xml">
+<persistable path="/Ch06IntentFilter/AndroidManifest.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.manifest.ManifestEditor" name="AndroidManifest.xml" tooltip="Ch06StartActWTBundleMe/AndroidManifest.xml">
-<persistable path="/Ch06StartActWTBundleMe/AndroidManifest.xml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.android.ide.eclipse.editors.CommonXmlEditor" name="main.xml" tooltip="Ch06IntentFilterMe/res/layout/main.xml">
+<persistable path="/Ch06IntentFilterMe/res/layout/main.xml"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvPtName" />
+
+    <EditText
+        android:id="@+id/etIdName"
+        android:layout_width="match_parent"        
+        android:layout_height="wrap_content" 
+        android:inputType="textNoSuggestions" />
+    
+    
+	<LinearLayout
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+	    <TextView
+	        android:id="@+id/tvIdSex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tvPtSex" />
+	        
+	    <RadioGroup
+	        android:id="@+id/rdgIdSex"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:checkedButton="@+id/rbIdMale"
+	        android:orientation="horizontal" >
+	        
+	        <RadioButton
+	            android:id="@+id/rbIdMale"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/rbPtMale" />
+	        <RadioButton
+		        android:id="@+id/rbIdFemale"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/rbPtFemale" />
+	        	
+	    </RadioGroup>
+	</LinearLayout>
+    
+    <Button
+        android:id="@+id/btIdSure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btPtSure" />
+        
+</LinearLayout>

@@ -1,8 +1,0 @@
-<resources>
-
-    <string name="app_name">Ch05GetResme</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
-    <string name="title_activity_ch05_get_resme">Ch05GetResme</string>
-
-</resources>

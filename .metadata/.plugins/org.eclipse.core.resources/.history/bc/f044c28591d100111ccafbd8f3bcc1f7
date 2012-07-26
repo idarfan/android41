@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">Ch05GetResme存取Res資料</string>    
-    <string name="title_activity_ch05_get_resme">Ch05GetResme</string>
-    <string name="stytext">
-    	<i>Android 4.0</i>， <u>應用程式專案開發</u>，<b>從心開始</b>
-    </string>
-</resources>

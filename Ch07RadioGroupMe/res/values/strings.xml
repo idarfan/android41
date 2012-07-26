@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Ch07RadioGroupMe選項群組</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_radio_group_me">Ch07RadioGroupMe</string> 
+    <string name="tvPtName">姓名:</string>
+    <string name="tvPtSex">性別:</string>
+    <string name="btPtSure">確定</string>
+    <string name="rbPtMale">男性</string>
+    <string name="rbPtFemale">女性</string>
+    <string name="rbPtnoneSex">人妖</string>
+        
+</resources>

@@ -5236,3 +5236,21 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY org.eclipse.core.resources 2 10035 2012-07-25 18:46:24.479
 !MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-07-25 21:18:45.240
+!MESSAGE Failed to load properties file for project 'Ch07RadioGroupMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-07-25 21:21:06.452
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY org.eclipse.ui 4 4 2012-07-26 19:12:30.547
+!MESSAGE Invalid preference page path: XML Syntax
+!SESSION 2012-07-26 19:13:53.077 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-07-26 22:22:31.977
+!MESSAGE Invalid preference page path: XML Syntax
