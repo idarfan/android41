@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>Ch06IntentFilterMe</name>
-	<comment></comment>
+	<comment>@key 32303037303533312D31302043683036496E74656E7446696C7465724D652F6B6F6A656E646972656374 </comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -25,9 +25,15 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.soyatec.additional.Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>com.android.ide.eclipse.adt.AndroidNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>com.soyatec.additional.Nature</nature>
 	</natures>
 </projectDescription>

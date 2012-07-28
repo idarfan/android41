@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Ch07SpinnerMe下拉式選單</string>
+    <string name="menu_settings">Settings</string> 
+    <string name="title_activity_ch07_spinner_me">Ch07SpinnerMe</string>
+    <string name="tvPtEdu">教育程度</string>
+    <string name="btPtSure">確定</string>
+    <string-array name="spnEduList">
+        <item>國小</item>
+        <item>國中</item>
+        <item>高中</item>
+        <item>大學</item>
+        <item>碩士</item>
+        <item>博士</item>
+    </string-array>
+
+</resources>

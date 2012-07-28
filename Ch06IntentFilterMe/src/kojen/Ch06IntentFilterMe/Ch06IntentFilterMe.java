@@ -11,7 +11,10 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Ch06IntentFilterMe extends Activity {
-	private Button btDialer, btBrowser, btPlayer, btPhoto;
+	private Button btDialer;
+	private Button btBrowser;
+	private Button btPlayer;
+	private Button btPhoto;
 
 	/** Called when the activity is first created. */
 	@Override

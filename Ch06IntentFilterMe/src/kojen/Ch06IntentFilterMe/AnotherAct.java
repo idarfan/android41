@@ -6,7 +6,10 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 public class AnotherAct extends Activity {
-	String msg, stAct, stScheme,stData;
+	String msg;
+	String stAct;
+	String stScheme;
+	String stData;
 	
     /** Called when the activity is first created. */
     @Override
