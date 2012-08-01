@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+   <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+       <TextView android:id="@+id/tvIdPosit"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="30sp"
+		    android:textColor="#33FFAA"
+		    android:text="@string/tvPtPosit"  />
+
+       <CheckBox android:id="@+id/chbIdSalSup"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content"
+		    android:textSize="40sp"
+		    android:text="@string/chbPtSalSup"  />
+		
+		<CheckBox android:id="@+id/chbIdMangSup"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtMangSup"  />
+		
+		<CheckBox android:id="@+id/chbIdPersSup"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtPersSup"  />
+		
+		<CheckBox android:id="@+id/chbIdAdmSup"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtAdmSup"  />
+		
+		<CheckBox android:id="@+id/chbIdSalPer"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtSalPer"  />
+		
+		<CheckBox android:id="@+id/chbIdSalEng"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtSalEng"  />
+		
+		<CheckBox android:id="@+id/chbIdOpMang"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtOpMang"  />
+		
+		<CheckBox android:id="@+id/chbIdAdmPer"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtAdmPer"  />
+		
+		<CheckBox android:id="@+id/chbIdSenSecr"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtSenSecr"  />
+		
+		<CheckBox android:id="@+id/chbIdSalAss"  
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="40sp"
+		    android:text="@string/chbPtSalAss"  />
+		
+	   <Button android:id="@+id/btIdSure"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/btPtSure"  />
+		
+	</LinearLayout>
+
+</ScrollView>

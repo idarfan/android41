@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Ch07AutoCompleteMe</string>  
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_auto_complete_me">Ch07AutoCompleteMe</string>
+    <string name="pleaseInputAddress">請輸入地址</string>
+    <string-array name="PlaceArray">
+        <item>taipei</item>
+        <item>taipei goverment</item>
+        <item>taipei 101</item>
+        <item>taichun</item>
+        <item>taipei railway</item>
+        <item>tainan</item>
+    </string-array>  
+
+</resources>

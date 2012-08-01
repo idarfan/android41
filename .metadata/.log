@@ -5369,3 +5369,30 @@ Command-line arguments:  -os linux -ws gtk -arch x86_64
 
 !ENTRY com.android.ide.eclipse.adt 2 0 2012-07-28 17:50:22.562
 !MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-08-01 15:26:07.688
+!MESSAGE Failed to load properties file for project 'Ch07AutoCompleteMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-08-01 15:36:06.102
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-08-01 16:37:23.723
+!MESSAGE Failed to load properties file for project 'Ch07CheckBoxScrollViewMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-08-01 16:39:10.345
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world
+!SESSION 2012-08-01 17:13:34.419 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=zh_TW
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2012-08-01 17:17:24.992
+!MESSAGE Invalid preference page path: XML Syntax
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2012-08-01 19:26:19.577
+!MESSAGE Failed to load properties file for project 'Ch07ImageViewSeekBarMe'
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2012-08-01 19:27:54.839
+!MESSAGE main.xml: Couldn't resolve resource @string/hello_world

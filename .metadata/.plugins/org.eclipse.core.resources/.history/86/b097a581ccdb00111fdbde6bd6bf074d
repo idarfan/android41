@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Ch07ImageViewSeekBarMe</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_image_view_seek_bar_me">Ch07ImageViewSeekBarMe</string>
+     <string name="btPtNext">下一張</string>
+    <string name="btPtPrev">前一張</string>
+    <string name="tvPtAlp">調整照片透明度：</string>        
+
+</resources>

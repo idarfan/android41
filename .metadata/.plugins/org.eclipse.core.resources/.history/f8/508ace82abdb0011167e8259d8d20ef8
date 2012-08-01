@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Ch07AutoCompleteMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_auto_complete_me">Ch07AutoCompleteMe</string>
+
+</resources>

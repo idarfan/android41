@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Ch05ImageViewAndButtonSound</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch05_image_view_and_button_sound">圖片按鈕和聲音</string>
+    <string name="tvPtName">姓名：</string>
+    <string name="tvPtSex">性別</string>
+    <string name="rbPtMale">男性</string>
+    <string name="rbPtFemale">女性</string>
+    <string name="rbPtNonesex">人妖</string>
+    <string name="ImageDesc">I dunno</string>
+
+</resources>

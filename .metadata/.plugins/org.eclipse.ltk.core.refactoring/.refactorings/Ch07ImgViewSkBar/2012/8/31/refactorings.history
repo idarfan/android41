@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;drawable&apos;&#x0A;- Original project: &apos;Ch07ImgViewSkBar&apos;&#x0A;- Destination element: &apos;drawable&apos;&#x0A;- Original elements:&#x0A;     flow03b.jpg&#x0A;     flow05b.jpg&#x0A;     flow01b.jpg&#x0A;     flow06b.jpg&#x0A;     flow02b.jpg&#x0A;     flow04b.jpg" description="Copy files" element1="res/drawable/flow03b.jpg" element2="res/drawable/flow05b.jpg" element3="res/drawable/flow01b.jpg" element4="res/drawable/flow06b.jpg" element5="res/drawable/flow02b.jpg" element6="res/drawable/flow04b.jpg" files="6" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1343820567749" target="/Ch07ImageViewSeekBarMe/res/drawable" units="0" version="1.0"/>
+</session>

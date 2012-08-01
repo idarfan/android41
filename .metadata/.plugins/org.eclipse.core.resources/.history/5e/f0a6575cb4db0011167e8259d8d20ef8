@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Ch07CheckBoxScrollViewMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_check_box_scroll_view_me">Ch07CheckBoxScrollViewMe</string>
+
+</resources>
