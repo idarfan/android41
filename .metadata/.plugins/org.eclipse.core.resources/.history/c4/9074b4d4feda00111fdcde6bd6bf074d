@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Ch07GridViewMe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_grid_view_me">Ch07GridViewMe</string>
+
+</resources>

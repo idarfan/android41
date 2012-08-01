@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Ch07照片畫廊</string>    
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_ch07_gallery_me">Ch07GalleryMe</string>
+
+</resources>
