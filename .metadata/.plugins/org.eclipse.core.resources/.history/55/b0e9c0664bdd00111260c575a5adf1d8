@@ -1,0 +1,108 @@
+package kojen.GalleryImageSwitcherMe;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.res.TypedArray;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.view.animation.AnimationUtils;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.BaseAdapter;
+import android.widget.Gallery;
+import android.widget.ImageSwitcher;
+import android.widget.ImageView;
+import android.widget.Toast;
+import android.widget.ViewSwitcher.ViewFactory;
+
+public class GalleryImageSwitcherMe extends Activity implements ViewFactory {
+	private ImageSwitcher imgSwi;
+
+    private Integer[] AryBigPhoto = {
+    		R.drawable.flow01b, R.drawable.flow02b, R.drawable.flow03b,
+            R.drawable.flow04b, R.drawable.flow05b, R.drawable.flow06b };
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        buildViews();  //user define
+    }
+    
+    private void buildViews() {
+    	Gallery gal = (Gallery) findViewById(R.id.glIdPhoto);    
+		gal.setAdapter(new ImageAdapter(this));
+		gal.setOnItemClickListener(galListener);
+       
+    	imgSwi = (ImageSwitcher) findViewById(R.id.isIdPhoto);
+    	imgSwi.setFactory(this);
+    	imgSwi.setInAnimation(AnimationUtils.loadAnimation(this,
+                android.R.anim.fade_in));
+    	imgSwi.setOutAnimation(AnimationUtils.loadAnimation(this,
+                android.R.anim.fade_out));
+    }
+
+	private OnItemClickListener galListener = new OnItemClickListener() {    
+		public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+			
+			imgSwi.setImageResource(AryBigPhoto[position]);
+    		Toast.makeText(GalleryImageSwitcherMe.this,
+    				"您點選的照片為編號 ：" + (position+1),
+    				Toast.LENGTH_SHORT)
+    		     .show();			
+		}
+	};
+    
+    public View makeView() {
+        ImageView v = new ImageView(this);
+        v.setBackgroundColor(0xFF000000);
+        v.setScaleType(ImageView.ScaleType.FIT_CENTER);
+        v.setLayoutParams(new ImageSwitcher.LayoutParams(LayoutParams.FILL_PARENT,
+                LayoutParams.FILL_PARENT));
+        return v;
+    }
+
+	public class ImageAdapter extends BaseAdapter {
+		int galItemBackground;
+		private Context cont;
+
+		private Integer[] AryThumPhoto = {
+	            R.drawable.flow01, R.drawable.flow02, R.drawable.flow03,
+	            R.drawable.flow04, R.drawable.flow05, R.drawable.flow06 };
+
+		public ImageAdapter(Context c) {
+			cont = c;
+			TypedArray attr = cont.obtainStyledAttributes(R.styleable.galStyle);
+			galItemBackground = attr.getResourceId(
+			R.styleable.galStyle_android_galleryItemBackground, 0);
+			attr.recycle();
+		}
+
+		public int getCount() {
+			return AryThumPhoto.length;
+		}
+
+		public Object getItem(int position) {
+			return position;
+		}
+		
+		public long getItemId(int position) {
+			return position;
+		}
+		
+		public View getView(int position, View convertView, ViewGroup parent) {
+			ImageView imageView = new ImageView(cont);
+			
+			imageView.setImageResource(AryThumPhoto[position]);
+			imageView.setLayoutParams(new Gallery.LayoutParams(150, 100));
+			imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+			imageView.setBackgroundResource(galItemBackground);
+			
+			return imageView;
+		}
+	}
+
+}
