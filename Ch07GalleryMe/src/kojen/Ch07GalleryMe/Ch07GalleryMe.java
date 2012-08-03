@@ -28,7 +28,7 @@ public class Ch07GalleryMe extends Activity {
 	}
 
 	private OnItemClickListener galListener = new OnItemClickListener() {    
-		public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+		public void onItemClick(AdapterView<?> parent, View v, int position, long id ) {
     		Toast.makeText(Ch07GalleryMe.this,
     				"您點選的照片為編號 ：" + (position+1),
     				Toast.LENGTH_SHORT)
