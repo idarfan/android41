@@ -1,5 +1,6 @@
 package kojen.Ch05button4me;
 
+import kojen.ch05button4me.R;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
