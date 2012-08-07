@@ -41,9 +41,10 @@ public class Ch07ExpListViewMe extends ExpandableListActivity {
            
             List<Map<String, String>> stSchList = new ArrayList<Map<String, String>>();
             if (i==2 || i==3){
-              for (int j = 0; j < 3; j++) {
+              for (int j = 0; j < 4; j++) {
                 Map<String, String> SchItem = new HashMap<String, String>();
                 SchItem.put("ItName", stArySch[i-2][j]);
+                //SchItem.put("subItname", stAryEduDesc[i]);
                 SchItem.put("subItname", "");
                 stSchList.add(SchItem);
               }
@@ -71,7 +72,8 @@ public class Ch07ExpListViewMe extends ExpandableListActivity {
 			int groupPosition, int childPosition, long id) {
 
 		msg ="您的教育程度為： "+stAryEdu[groupPosition] +
-			"\n就讀學校 : " + stArySch[groupPosition-2][childPosition];
+			"\n就讀學校 : " + stArySch[groupPosition-2][childPosition] +
+		    "\n學校分類 : " + stAryEduDesc[groupPosition];
 		Toast.makeText(Ch07ExpListViewMe.this,
 				msg,
 				Toast.LENGTH_SHORT)
